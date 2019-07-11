@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label>Nombres </label> <input type="text" id="nombre" placeholder="Ingrese nombre">
+        </p>
+        <p >
+            <label>Apellidos </label> <input type="text" id="apellido" placeholder="Ingrese apellidos">
+        </p>
+        <p>
+            <label>Género </label> <select id="gen">
+                <option value="seleccion" disable selected>Seleccion</option>
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+        </p>
+        <p >
+            <label>Estado civil</label> 
+            <input type="radio" id="cs" name="casado">
+            <label for="casado" id="cs">Casado</label> 
+            <input type="radio" id="sl" name="soltero">
+            <label for="soltero" id="sl">Soltero</label>
+        </p>
+    </form>
+    <div>
+        <button id="bt" type="submit">Agregar</button>
+    </div>
+
+    <table id="tabla">
+        <tr>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Género</th>
+            <th>Estado Civil</th>
+        </tr>
+    </table>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
